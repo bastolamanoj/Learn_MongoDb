@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\MongoDB\\RestRes\\RestRes.csproj": {}
+    "I:\\MongoDB\\RestApp\\RestRes\\RestRes.csproj": {}
   },
   "projects": {
-    "I:\\MongoDB\\RestRes\\RestRes.csproj": {
+    "I:\\MongoDB\\RestApp\\RestRes\\RestRes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\MongoDB\\RestRes\\RestRes.csproj",
+        "projectUniqueName": "I:\\MongoDB\\RestApp\\RestRes\\RestRes.csproj",
         "projectName": "RestRes",
-        "projectPath": "I:\\MongoDB\\RestRes\\RestRes.csproj",
+        "projectPath": "I:\\MongoDB\\RestApp\\RestRes\\RestRes.csproj",
         "packagesPath": "C:\\Users\\manoj\\.nuget\\packages\\",
-        "outputPath": "I:\\MongoDB\\RestRes\\obj\\",
+        "outputPath": "I:\\MongoDB\\RestApp\\RestRes\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\manoj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,6 +52,10 @@
             "MongoDB.Driver.Core": {
               "target": "Package",
               "version": "[2.30.0, )"
+            },
+            "MongoDB.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.2.0, )"
             }
           },
           "imports": [

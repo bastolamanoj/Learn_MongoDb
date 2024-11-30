@@ -1,0 +1,10 @@
+## For vscode
+/RestApp/.vs/
+/RestApp/.vscode/
+
+##for app
+/RestApp/bin/
+/RestApp/obj/
+
+
+

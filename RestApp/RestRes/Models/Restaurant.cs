@@ -1,12 +1,12 @@
 
 using MongoDB.Bson; 
-using MongoDB.Driver;
+using MongoDB.EntityFrameworkCore;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.CompilerServices;
 
 namespace RestRes.Models
 {
-    // [Collection("Restaurants")]
+    [Collection("Restaurants")]
     public class Restaurant{
         public ObjectId Id { get; set; }    
 
@@ -19,7 +19,7 @@ namespace RestRes.Models
         public string? Cuisine { get; set; }
 
         [Required(ErrorMessage ="You must add the borough of the restaurant.")]
-        public string? borough { get;}
+        public string? Borough { get; set; }
     
     }
 
